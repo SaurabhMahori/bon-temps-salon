@@ -58,7 +58,7 @@ function useCountUp(end: number, duration: number = 2000, startOnView: boolean =
 
 export function TrustStats() {
   const { count: ratingCount, ref: ratingRef } = useCountUp(46, 2000, true);
-  const { count: reviewCount } = useCountUp(347, 2500, true);
+  const reviewCount = 347;
   
   const stats = [
     {
